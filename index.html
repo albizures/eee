@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Hello World!</title>
+		<!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="script-src 'self' 'unsafe-inline';"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<h5 id="title"></h5>
+		<div id="text"></div>
+		<div id="file-label">
+			<label for="file">Add themes</label>
+		</div>
+		<input type="file" name="file" id="file" />
+		<script src="script.js"></script>
+	</body>
+</html>
